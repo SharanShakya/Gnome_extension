@@ -1,0 +1,10 @@
+{
+  "uuid": "quick-notes@Hades",
+  "name": "Quick Notes",
+  "description": "Tiny local quick notes for the GNOME top bar.",
+  "shell-version": [
+    "50"
+  ],
+  "version": 1,
+  "settings-schema": "org.gnome.shell.extensions.quick-notes"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.quick-notes" path="/org/gnome/shell/extensions/quick-notes/">
+    <key name="show-note-count" type="b">
+      <default>false</default>
+      <summary>Show note count</summary>
+      <description>Show the number of notes beside the panel icon.</description>
+    </key>
+    <key name="sort-order" type="s">
+      <default>'modified'</default>
+      <summary>Sort order</summary>
+      <description>How notes are sorted in the popup.</description>
+    </key>
+  </schema>
+</schemalist>
