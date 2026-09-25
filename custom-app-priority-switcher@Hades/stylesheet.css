@@ -1,0 +1,66 @@
+.cas-scroll {
+    min-width: 320px;
+    max-height: 480px;
+}
+
+.cas-list {
+    spacing: 2px;
+    padding: 4px;
+}
+
+.cas-row {
+    padding: 6px 8px;
+    spacing: 10px;
+    border-radius: 8px;
+}
+
+.cas-row:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.cas-row-dragging,
+.cas-row-dragging:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+/* Priority circle: hollow = normal, green = priority */
+.cas-priority {
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    border-radius: 99px;
+}
+
+.cas-priority:hover {
+    border-color: rgba(255, 255, 255, 0.75);
+}
+
+.cas-priority-on,
+.cas-priority-on:hover {
+    background-color: #33d17a;
+    border-color: #33d17a;
+}
+
+.cas-name {
+    font-weight: normal;
+}
+
+.cas-close {
+    padding: 4px;
+    border-radius: 99px;
+}
+
+.cas-close:hover {
+    background-color: rgba(255, 255, 255, 0.16);
+}
+
+.cas-empty {
+    padding: 12px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.cas-drag-area {
+    spacing: 8px;
+}

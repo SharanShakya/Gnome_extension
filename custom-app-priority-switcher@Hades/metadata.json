@@ -1,0 +1,7 @@
+{
+  "uuid": "custom-app-priority-switcher@Hades",
+  "name": "Custom Application Priority Switcher",
+  "description": "Top-bar popup listing running applications with priority pinning, always-on-top windows, drag-and-drop ordering and a close button.",
+  "shell-version": ["50"],
+  "version": 2
+}
